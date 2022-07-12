@@ -1,0 +1,15 @@
+{
+    "name": "dethz-reversed-proxy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "deth's",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.2"
+    }
+}
