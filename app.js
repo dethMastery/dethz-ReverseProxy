@@ -12,7 +12,9 @@ let cOPT = {
     optionsSuccessStatus: 200
 }
 
-app.use('/', cors(cOPT), proxy('http://nas.kizune.live:30'));
+let link = ""
+
+app.use('/', cors(cOPT), proxy(link));
 
 app.listen(wPort, () => {
     console.log('Web start at port ' + wPort);
