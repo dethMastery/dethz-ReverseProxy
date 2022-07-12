@@ -10,6 +10,8 @@
     "author": "deth's",
     "license": "MIT",
     "dependencies": {
-        "express": "^4.17.2"
+        "cors": "^2.8.5",
+        "express": "^4.17.2",
+        "express-http-proxy": "^1.6.3"
     }
 }
