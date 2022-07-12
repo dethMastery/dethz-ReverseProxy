@@ -1,7 +1,7 @@
 {
     "name": "dethz-reversed-proxy",
     "version": "1.0.0",
-    "description": "",
+    "description": "just a reverse proxy software",
     "main": "app.js",
     "scripts": {
         "dev": "nodemon app.js"
